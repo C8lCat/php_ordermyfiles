@@ -1,0 +1,85 @@
+
+	   /* General */
+	  
+	  html, body {
+        margin: 0;
+		}
+	  
+	  h1 {
+		  border: 2px solid red;
+		  display: inline-block;
+		  
+	  }
+	  
+	   h1, h2{
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+      }
+	  
+	  .code {
+		  font-family: 'Source Code Pro', sans-serif;
+		  font-size: 18px;
+	  }
+	  
+	  span {
+		  color: red;
+	  }
+
+	  p {
+        font-family: Helvetica, Arial, sans-serif; 
+		font-size: 20px;
+      }
+	  
+	  * {
+		box-sizing: border-box;
+	  }
+	  
+	  .container {  
+        max-width: 940px;
+        margin: 0 auto;
+      }
+	  
+	  /*header*/
+	  
+	  	.header {
+		
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+		font-size: 30px;
+		text-align: center;			
+		}
+		
+		.header h1{
+			padding: 10px;
+		}
+		
+		.header p{
+			 font-family: Helvetica, Arial, sans-serif; 
+			 font-size: 20px;
+		}
+		
+		
+		
+	/*jumbotron*/
+	
+		.row {
+			text-align: center;
+		}
+		
+		.jumbotron h3{
+			text-decoration: underline;
+			padding-bottom: 5px;
+			padding-top: 10px;
+		}
+		
+		.jumbotron{
+			margin-top: 20 px;
+			background-color: #F1F1F1;
+		}
+		
+		/*button*/
+		
+		.btn-info {
+			margin-top:50px;
+			margin-bottom: 20px;
+		}
